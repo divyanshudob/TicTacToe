@@ -103,7 +103,18 @@ class ComputerActivity : AppCompatActivity() {
         if(turnCount == 9){
             turnCount = 0
             player = true
-            Toast.makeText(this, "Game Draw!!", Toast.LENGTH_LONG).show()
+            var win: Boolean = checkWinner()
+            if(win){
+                if(player){
+                    Toast.makeText(this,"Player Won",Toast.LENGTH_LONG).show()
+                }
+                else{
+                    Toast.makeText(this, "Computer Won", Toast.LENGTH_LONG).show()
+                }
+            }
+            else
+                Toast.makeText(this, "Game Draw!!", Toast.LENGTH_LONG).show()
+
             Status.text = "Player's Turn"
             changeBoard()
         }
