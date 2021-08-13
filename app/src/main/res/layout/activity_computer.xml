@@ -27,7 +27,7 @@
             android:textSize="40sp"
             android:layout_weight="1"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -36,7 +36,7 @@
             android:textSize="40sp"
             android:layout_marginRight="10dp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -44,7 +44,7 @@
             android:textSize="40sp"
             android:id="@+id/Third"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
     </LinearLayout>
@@ -60,7 +60,7 @@
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -69,7 +69,7 @@
             android:textSize="40sp"
             android:layout_marginRight="10dp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -77,7 +77,7 @@
             android:id="@+id/Sixth"
             android:textSize="40sp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
     </LinearLayout>
@@ -93,7 +93,7 @@
             android:layout_weight="1"
             android:textSize="40sp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -102,7 +102,7 @@
             android:layout_marginRight="10dp"
             android:textSize="40sp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
         <Button
@@ -110,20 +110,13 @@
             android:id="@+id/Ninth"
             android:textSize="40sp"
             android:layout_width="100dp"
-            android:layout_height="100dp">
+            android:layout_height="130dp">
 
         </Button>
     </LinearLayout>
-    <Button
-        android:id="@+id/start"
 
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:text="Start"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
 
-    </Button>
+
     <Button
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"

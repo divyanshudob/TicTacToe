@@ -80,6 +80,7 @@ class FriendsActivity : AppCompatActivity() {
         resetBtn.setOnClickListener {
             PLAYER_X = true
             TURN_COUNT = 0
+            Status.text = "Player 1 turn"
             initializeBoardStatus()
         }
 
