@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:id="@+id/Banner"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:layout_above="@+id/Computer"
+        android:layout_height="wrap_content"
+        android:text="TicTacToe"></TextView>
+
+    <Button
+        android:id="@+id/Computer"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Friend"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginBottom="20dp"
+        android:text="Computer"></Button>
+
+    <Button
+        android:id="@+id/Friend"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="141dp"
+        android:text="Friend"></Button>
+
+    <Button
+        android:id="@+id/Room"
+        android:text="Room"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Friend"></Button>
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Room"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="15dp"
+        android:text="Made with ♥ by Divyanshu️"></TextView>
+</RelativeLayout>
