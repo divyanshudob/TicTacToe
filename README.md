@@ -3,7 +3,7 @@ Tic-tac-toe is a game in which two players take turns in drawing either an ' O' 
 
 # **Project Update**
 
-Currently only 'Friends' and 'Computer' version works. I'll try to implement the **Multiplayer(Room) version** later. You can download the apk from [here](https://github.com/divyanshudob/TicTacToe/releases/tag/1.0). If any doubt regarding the project, Please 
+Currently only 'Friends' and 'Computer' version works. I'll try to implement the **Multiplayer(Room) version** later. You can run the app from [here](https://appetize.io/app/84kubz7zg99ejr02b9kk64x8q0?device=nexus5&scale=75&orientation=portrait&osVersion=8.1) and download the apk from [here](https://github.com/divyanshudob/TicTacToe/releases/tag/1.0). If any doubt regarding the project, Please 
 feel free to contact divyanshudob@gmail.com
 
 # ****APP****
